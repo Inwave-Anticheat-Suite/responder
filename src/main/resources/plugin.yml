@@ -1,0 +1,6 @@
+name: 'Responder'
+version: '1.0.0'
+author: 'AdvancedCode'
+main: 'de.inwave.responder.Responder'
+depend:
+  - 'ProtocolLib'
