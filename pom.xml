@@ -20,6 +20,14 @@
         </plugins>
     </build>
 
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Inwave-Anticheat-Suite Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/Inwave-Anticheat-Suite/responder</url>
+        </repository>
+    </distributionManagement>
+
     <repositories>
         <repository>
             <id>spigot-repo</id>
