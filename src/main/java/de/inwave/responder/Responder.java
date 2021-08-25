@@ -38,13 +38,6 @@ public class Responder extends JavaPlugin implements Listener {
     }
 
     @EventHandler
-    public void onJoin(PlayerJoinEvent event) {
-        Responder.getInstance().queue(event.getPlayer(), () -> {
-            event.getPlayer().sendMessage("hello, your client responded!");
-        });
-    }
-
-    @EventHandler
     public void onQuit(PlayerQuitEvent event) {
         this.userMap.remove(event.getPlayer());
     }
