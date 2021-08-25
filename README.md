@@ -16,3 +16,21 @@ this plugin has only been tested in 1.8.8 of spigot, if you have experience with
         });
     }
 ```
+
+## Maven
+```xml
+    <repositories>
+        <repository>
+            <id>inwave-responder</id>
+            <url>https://maven.pkg.github.com/Inwave-Anticheat-Suite/responder</url>
+        </repository>
+    </repositories>
+
+    <dependencies>
+        <dependency>
+            <groupId>de.inwave</groupId>
+            <artifactId>responder</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+    </dependencies>
+```
